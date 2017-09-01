@@ -1,4 +1,4 @@
-FROM ethereum/client-go:v1.6.5
+FROM xping:latest
 
 RUN apk update &&\
     apk add git nodejs bash perl

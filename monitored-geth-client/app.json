@@ -12,10 +12,10 @@
     {
       "NODE_ENV"        : "production",
       "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
-      "LISTENING_PORT"  : "30303",
+      "RPC_PORT"        : "9545",
+      "LISTENING_PORT"  : "30333",
       "INSTANCE_NAME"   : "XXX",
-      "WS_SERVER"       : "ws://netstats:3000",
+      "WS_SERVER"       : "ws://netstats:8000",
       "WS_SECRET"       : "eth-net-stats-secret",
       "VERBOSITY"       : 2
     }

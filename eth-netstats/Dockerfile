@@ -7,6 +7,6 @@ RUN cd /eth-netstats && grunt
 
 WORKDIR /eth-netstats
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["npm", "start"]
