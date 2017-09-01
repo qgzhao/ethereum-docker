@@ -17,7 +17,7 @@
       "INSTANCE_NAME"   : "XXX",
       "WS_SERVER"       : "ws://xnetstats:3000",
       "WS_SECRET"       : "xping-net-stats-secret",
-      "VERBOSITY"       : 5
+      "VERBOSITY"       : 2
     }
   }
 ]
