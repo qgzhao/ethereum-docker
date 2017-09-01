@@ -15,9 +15,9 @@
       "RPC_PORT"        : "8545",
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "XXX",
-      "WS_SERVER"       : "ws://xnetstats:3000",
-      "WS_SECRET"       : "eth-net-stats-secret",
-      "VERBOSITY"       : 2
+      "WS_SERVER"       : "ws://xnetstats:8000",
+      "WS_SECRET"       : "xping-net-stats-secret",
+      "VERBOSITY"       : 5
     }
   }
 ]
