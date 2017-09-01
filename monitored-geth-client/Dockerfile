@@ -1,7 +1,7 @@
 FROM registry.cn-hangzhou.aliyuncs.com/chit/xping:latest
 
 RUN apk update &&\
-    apk add --no-cache git nodejs npm bash perl
+    apk add --no-cache git nodejs bash perl
 
 RUN cd /root &&\
     git clone https://github.com/cubedro/eth-net-intelligence-api &&\
