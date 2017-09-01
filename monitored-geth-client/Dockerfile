@@ -1,7 +1,7 @@
 FROM registry.cn-hangzhou.aliyuncs.com/chit/xping:latest
 
 RUN apk update &&\
-    apk add git nodejs bash perl
+    apk add --no-cache --repository http://nl.alpinelinux.org/alpine/v3.6/main nodejs=6.10.3-r1 nodejs-npm=6.10.3-r1 git bash perl
 
 RUN cd /root &&\
     git clone https://github.com/cubedro/eth-net-intelligence-api &&\
