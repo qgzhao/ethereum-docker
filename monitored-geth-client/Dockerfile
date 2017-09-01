@@ -1,4 +1,4 @@
-FROM xping:latest
+FROM registry.cn-hangzhou.aliyuncs.com/chit/xping:latest
 
 RUN apk update &&\
     apk add git nodejs bash perl
